@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SkyFax")(type "KiCad")(uri "${KIPRJMOD}/SkyFax.kicad_sym")(options "")(descr ""))
+  (lib (name "Si2494-39")(type "KiCad")(uri "/home/brian/Downloads/Si2494-39.kicad_sym")(options "")(descr "")(disabled))
+)
