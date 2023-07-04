@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FaxCam")(type "KiCad")(uri "/home/brian/workspace/FaxCam/FaxCam-git/hardware/FaxCam.pretty")(options "")(descr ""))
+)

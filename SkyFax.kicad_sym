@@ -156,6 +156,10 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "38" (effects (font (size 1.27 1.27))))
       )
+      (pin power_in line (at 2.54 -52.07 90) (length 7.62)
+        (name "EP" (effects (font (size 1.27 1.27))))
+        (number "39" (effects (font (size 1.27 1.27))))
+      )
       (pin no_connect line (at 0 25.4 0) (length 7.62) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
