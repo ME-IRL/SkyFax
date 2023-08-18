@@ -53,6 +53,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 1.0,
+          "via_gap": 0.0,
+          "width": 0.15
         }
       ],
       "drc_exclusions": [],
@@ -111,8 +116,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.19999999999999998,
-        "min_connection": 0.19999999999999998,
+        "min_clearance": 0.127,
+        "min_connection": 0.127,
         "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.26,
         "min_hole_to_hole": 0.5,
@@ -123,7 +128,7 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.13999999999999999,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
@@ -173,8 +178,11 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.3,
-        0.4
+        0.4,
+        0.5,
+        0.6
       ],
       "via_dimensions": [
         {
