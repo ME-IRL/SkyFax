@@ -434,11 +434,11 @@
         )
       )
     )
-    (symbol "GND_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GND_1" (at 0 -3.81 0)
+      (property "Value" "GND" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -453,7 +453,7 @@
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GND_1_0_1"
+      (symbol "GND_0_1"
         (polyline
           (pts
             (xy 0 0)
@@ -467,7 +467,7 @@
           (fill (type none))
         )
       )
-      (symbol "GND_1_1_1"
+      (symbol "GND_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -608,10 +608,6 @@
   (wire (pts (xy 34.29 34.925) (xy 35.56 34.925))
     (stroke (width 0) (type default))
     (uuid 6313f737-71f7-4e24-b480-cf9884f46018)
-  )
-  (wire (pts (xy 48.26 40.005) (xy 52.07 40.005))
-    (stroke (width 0) (type default))
-    (uuid 632cef89-5e37-4983-8a78-a820937e3baf)
   )
   (wire (pts (xy 50.8 47.625) (xy 52.07 47.625))
     (stroke (width 0) (type default))
@@ -777,6 +773,10 @@
     (stroke (width 0) (type default))
     (uuid f3a2ac00-b3b5-401e-bc89-b2025731ddb4)
   )
+  (wire (pts (xy 48.26 40.005) (xy 52.07 40.005))
+    (stroke (width 0) (type default))
+    (uuid fc68362a-2ef4-4cff-b7e3-c6f1b9c87891)
+  )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 81.915 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
@@ -901,7 +901,7 @@
     )
   )
 
-  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 50.8 50.165 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 50.8 50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bdb2f05-2d1f-4771-9b4a-15b3fabc929c)
     (property "Reference" "#PWR032" (at 50.8 56.515 0)
@@ -958,7 +958,7 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 43.18 40.005 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 40.64 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4ef2f47-e6b7-4c49-a777-4386d8d1c5d9)
     (property "Reference" "J4" (at 41.91 29.845 0)
@@ -967,10 +967,10 @@
     (property "Value" "Conn_02x08_Odd_Even" (at 41.91 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" (at 43.18 40.005 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" (at 40.64 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 43.18 40.005 0)
+    (property "Datasheet" "~" (at 40.64 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid acdd5c79-fe31-4990-a6db-4128c9fc7e71))
@@ -1074,11 +1074,11 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 25530e96-210e-4dd4-a58d-e1a578a7614a)
     )
-    (pin "RING" bidirectional (at 97.79 41.91 0)
+    (pin "RING" bidirectional (at 97.79 40.005 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b41d2257-a286-4fba-a77b-3dfbbcf2dbbf)
     )
-    (pin "TIP" bidirectional (at 97.79 40.005 0)
+    (pin "TIP" bidirectional (at 97.79 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 8637c4ba-b0dd-4eb2-bd9e-65b21c7d38fb)
     )
