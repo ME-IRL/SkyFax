@@ -7,8 +7,8 @@
   (paper "USLetter")
   (title_block
     (title "SkyFax")
-    (date "2023-06-29")
-    (rev "1.0")
+    (date "2023-09-04")
+    (rev "3.0")
   )
 
   (layers
@@ -485,7 +485,7 @@
       (net 30 "Net-(Q5-E)") (pinfunction "E") (pintype "passive") (tstamp dca13341-fc93-4c74-a112-4820806a6f6f))
     (pad "3" smd roundrect (at 1.1375 0) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 31 "Net-(Q5-C)") (pinfunction "C") (pintype "passive") (tstamp 87c2e1dc-016e-4801-af7b-37b438a56100))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -548,7 +548,7 @@
       (net 26 "Net-(Q3-E)") (pinfunction "E") (pintype "passive") (tstamp 79aa48f1-6274-4ea1-ad34-0b1bbf0a0d52))
     (pad "3" smd roundrect (at 1.1375 0 180) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 14 "Net-(Q2-B)") (pinfunction "C") (pintype "passive") (tstamp 5b0644c8-f3cf-4911-bd85-f1ca54352952))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1457,10 +1457,10 @@
       (net 6 "GND1") (pinfunction "-") (pintype "passive") (tstamp 0a9b4cc7-9310-4144-b0c2-019da0de3155))
     (pad "4" smd rect (at -1.27 2.8 90) (size 1 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 18 "Net-(D1-Pad4)") (pintype "passive") (tstamp ef61deb5-1998-469f-9dc1-d085690ef022))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Bourns_CD-DF4xxS.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Diode_SMD.3dshapes/Diode_Bridge_Vishay_DFSFlat.step"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -3149,7 +3149,7 @@
       (net 5 "Net-(D1-+)") (pinfunction "E") (pintype "passive") (tstamp 35c3fbbe-13fd-488b-b3c7-cfd6bc9c3b94))
     (pad "3" smd roundrect (at 1.1375 0) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 23 "Net-(Q1-B)") (pinfunction "C") (pintype "passive") (tstamp 5779d543-1f31-4488-a238-998b7c28c471))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3442,7 +3442,7 @@
       (net 28 "Net-(Q4-E)") (pinfunction "E") (pintype "passive") (tstamp 336dcbc1-fad7-4cc2-ae1e-2776855a6bae))
     (pad "3" smd roundrect (at 1.1375 0) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 24 "Net-(Q1-E)") (pinfunction "C") (pintype "passive") (tstamp 559011ba-7de5-4c85-9ee9-1969f62d24ef))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3604,7 +3604,7 @@
       (net 15 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp d93ec070-90ae-4fd9-85d4-da547dd9d9c6))
     (pad "3" smd roundrect (at 1.1375 0 180) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 12 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 712a3768-0212-4a1c-a576-ac4f63ec3c22))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3713,7 +3713,7 @@
       (net 103 "unconnected-(U3-~{TXT}{slash}GPIO.2-Pad20)") (pinfunction "~{TXT}/GPIO.2") (pintype "bidirectional+no_connect") (tstamp 53600bd2-e23e-4b32-a089-5eef3fbe926c))
     (pad "21" smd rect (at 0 0) (size 1.8 1.8) (layers "F.Cu" "F.Mask")
       (net 12 "GND") (pinfunction "GND") (pintype "passive") (tstamp b667c395-de7e-4bdc-b93c-d7ddc47d374a))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Package_DFN_QFN.3dshapes/SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5216,10 +5216,10 @@
       (net 97 "Net-(U1-CLKIN_XTAL1)") (pinfunction "OUT") (pintype "output") (tstamp 19875173-7a0f-4b8c-903a-82489f152045))
     (pad "4" smd roundrect (at 0.725 -0.925) (size 0.8 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "+3V3") (pinfunction "VDD") (pintype "power_in") (tstamp 19e276cf-be9e-4397-8b3e-c5ddab73e135))
-    (model "${KICAD6_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Oscillator.3dshapes/Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm.step"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -5529,6 +5529,11 @@
       (net 12 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 895db3fd-ffd8-4a5e-90d5-4b8ddb351afd))
     (model "${KICAD7_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Amphenol_10118193-0001LF_Horizontal.wrl"
       (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ":KICAD7_3DMODEL_DIR:Connector_USB.3dshapes/USB_Micro-B_Molex_47346-0001.step"
+      (offset (xyz 0 1.25 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5897,7 +5902,7 @@
       (net 24 "Net-(Q1-E)") (pinfunction "E") (pintype "passive") (tstamp d40d90f2-3342-4748-9cb1-d7d0e1da5cf8))
     (pad "3" smd roundrect (at 1.1375 0 180) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "Net-(D1-+)") (pinfunction "C") (pintype "passive") (tstamp f8713737-fb41-4834-843d-cdf79be1d4e0))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.wrl"
+    (model ":KICAD7_3DMODEL_DIR:Package_TO_SOT_SMD.3dshapes/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
