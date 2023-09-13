@@ -2,12 +2,12 @@
 
   (uuid 6c1afcc0-1536-4a81-923f-afa2c2df50c7)
 
-  (paper "A4")
+  (paper "USLetter")
 
   (title_block
     (title "SkyFax")
-    (date "2023-09-02")
-    (rev "3.0")
+    (date "2023-09-12")
+    (rev "4.0")
     (company "Brian Hong")
     (comment 1 "@im_eningeer")
   )
