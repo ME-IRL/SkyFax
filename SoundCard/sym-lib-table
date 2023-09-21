@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SoundCard")(type "KiCad")(uri "${KIPRJMOD}/SoundCard.kicad_sym")(options "")(descr ""))
+)
