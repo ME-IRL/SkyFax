@@ -8,7 +8,7 @@
   to (4,0) node[label=tip] {}
   (0,2) node[label=below:tip] {}
   to (4,2) node[label=below:ring] {}
-  (2,2) to [R, l=100k] (2,0.6)
+  (2,2) to [R, l=$100\Omega$] (2,0.6)
   to [battery2, l=9v] (2,0);
 \end{circuitikz}
 \end{center}
