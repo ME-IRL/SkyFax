@@ -19,3 +19,5 @@ There is [this](https://tldp.org/HOWTO/Modem-HOWTO-26.html) and [this](https://m
 ![Simple line simulator](/docs/images/line_sim.png)
 
 The voltage and resistance can be tweaked to provide ~20mA of current with the modem/phone off-hook.
+
+If you'd like the schematic or just have a PCB made for the line simulator, check out the [LineSim](/LineSim) project included in this repo.
