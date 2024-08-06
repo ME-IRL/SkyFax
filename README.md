@@ -4,7 +4,17 @@ Fax and data modems built around Skyworks's [ISOModem chips](https://www.skywork
 
 Current functional version is 4.1 (see 3.0 below):
 
+![Version 4.1 Assembled](/docs/images/4.1_pic.jpg)
+
 ![Revision 4.0 KiCad 3D Render](/docs/images/render_4.0.png)
+
+## Case
+
+I've also designed and printed a case to go with it. The STL files can be found under [/case](/case). Or on [OnShape](https://cad.onshape.com/documents/ec3c126b0fcf528ada2a864d/w/a2689da35195e5fe9917eb13/e/6bc9b2e75f28a1d3ae68eb94?renderMode=0&uiState=66b1e84c84b2ab750eaa0002).
+
+![case](/docs/images/case_pic.jpg)
+
+![model](/docs/images/case_model.png)
 
 Version 3.0:
 
